@@ -17,7 +17,7 @@ Further: all the iot stuff
 - Build the main server using Next.js for hosting the ESP
 - Implement a Bluetooth interface for communication between the server and clients
 - Develop portable code for the "unit" clients
-- Setup  test sketches to understand wokings of esp32 and arduinoble
+- Setup test sketches to understand wokings of esp32 and arduinoble
 
 One main ESP hosts the main server and functions as the central controller for fortress. Every additional ESP, called a unit, interfaces with the server via Bluetooth. A unit is wirelessly reprogrammable and can act as a data collector and/or an actor. Actors function autonomously and execute the instructions received from the server. The systems shall be adjustable in low power consumption.
 
