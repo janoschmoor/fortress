@@ -1,26 +1,20 @@
-#include <WiFi.h>
-#include <NTPClient.h>
-#include <WiFiUdp.h>
+
+// #include "TimeClient.h"
+// #include "WIFI.h"
 
 const char* ssid = "esp_test_network";
-const char* password = "esp32-test-wificode";
-
-WiFiUDP ntpUDP;
-NTPClient timeClient(ntpUDP, "pool.ntp.org");
+const char* pwd = "esp32-test-wificode";
 
 void setup() {
     Serial.begin(9600);
-    WiFi.begin(ssid, password);
-    
-    while (WiFi.status() != WL_CONNECTED) {
-        delay(1000);
-        Serial.println("Connecting to WiFi...");
-    }
-    timeClient.begin();
 }
 
 void loop() {
-    timeClient.update();
-    Serial.println(timeClient.getFormattedTime());
-    delay(1000);
+    Serial.println("START");
+    // WIFI wifi;
+    // wifi.connect(ssid, pwd);
+    // wifi.disconnect();
+    Serial.println("END");
+    Serial.println(" ");
+    delay(5000);
 }
