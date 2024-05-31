@@ -40,9 +40,9 @@ export default function NumberDisplay(props: NumberDisplayProps) {
 
     return (
         <div>
-            <h1>{props.title}</h1>
-            <p>{props.value}</p>
-            <p>Last Updated: {props.lastUpdated.toLocaleString()}</p>
+            <p>{props.title}</p>
+            <p className='text-3xl'>{props.value}</p>
+            {/* <p>Last Updated: {props.lastUpdated.toLocaleString()}</p> */}
             <p>Time Elapsed: <span style={{ color: isOld ? 'red' : 'green' }}>{timeElapsed}</span></p>
         </div>
     );

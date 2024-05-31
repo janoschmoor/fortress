@@ -9,7 +9,7 @@ type UnitDisplayProps = {
 export default function UnitDisplay({ unit }: UnitDisplayProps) {
 
     const p: NumberDisplayProps = {
-        title: "Unit Display",
+        title: "Number Display",
         value: 0.6,
         lastUpdated: new Date(),
     }
