@@ -24,7 +24,7 @@ One main ESP hosts the main server and functions as the central controller for f
 ## Roadmap
 
 - [x] Start tinkering with esp32's
-- [x] Research and select the appropriate Next.js framework version for the main server
+- [ ] Research and select the appropriate Next.js framework version for the main server
 - [ ] Set up the main server using Next.js and configure it to host the ESP
 - [ ] Implement a Bluetooth interface for communication between the server and clients
 - [ ] Develop portable code for the "unit" clients
