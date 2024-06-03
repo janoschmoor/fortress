@@ -17,8 +17,8 @@ export default function LastUpdate(props: ProgressBarProps) {
 
     return (
         <div>
-            <div style={{ width: '100%', height: '1em', backgroundColor: 'lightgray' }}>
-                <div style={{ width: `${percent}%`, height: '1em', backgroundColor: 'blue' }}></div>
+            <div style={{ width: '100%', height: '1em', backgroundColor: 'red' }}>
+                <div style={{ width: `${percent}%`, height: '1em', backgroundColor: 'green' }}></div>
             </div>
             <p>{props.value}</p>
         </div>
